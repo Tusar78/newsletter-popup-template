@@ -1,0 +1,31 @@
+// Added Work-sans font from google font.
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700&display=swap");
+
+$header-height: 200px;
+$default-line-height: 1.6;
+
+// Colors
+$primary-color: #2355f2;
+$secondary-color: #1c1c1c;
+$light-color: #f5f7fa;
+$black: #000;
+$white: #fff;
+
+// Fonts & Typography
+$body-font: 'Work Sans', sans-serif;
+
+$big-font-size: 2rem; // 32px
+$normal-font-size: 1rem; // 16px
+$small-font-size: 0.875rem; // 14px
+
+$thin: 300;
+$regular: 400;
+$medium-bold: 600;
+
+/* Margin */
+$mb-1: 0.5rem;
+$mb-2: 1rem;
+$mb-3: 1.5rem;
+$mb-4: 2rem;
+$mb-5: 2.5rem;
+$mb-6: 3rem;
