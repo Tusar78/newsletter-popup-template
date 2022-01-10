@@ -20,3 +20,116 @@ body {
   display: grid;
   grid-template-columns: 100%;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.newsletter__head {
+  width: 100%;
+  height: $header-height;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $primary-color url(../images/Pattern.png) no-repeat;
+  margin-bottom: 1.75rem;
+}
+
+.newsletter__heading {
+  font-size: $big-font-size;
+  text-align: center;
+  color: $white;
+}
+
+.newsletter__body {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.newsletter__infoText {
+  font-size: $small-font-size;
+  text-align: center;
+  color: $secondary-color;
+  margin-bottom: 1.75rem;
+  line-height: $default-line-height;
+}
+
+.newsletter__form {
+  margin-bottom: 2.25rem;
+
+  p {
+    margin: 1.125rem 0 0 0.625rem;
+    font-size: $small-font-size;
+    font-weight: $thin;
+  }
+}
+
+.form-control {
+  display: flex;
+}
+
+.form-control > div:nth-child(1) {
+  width: 65%;
+  margin-right: 0.5rem;
+}
+
+.form-control > div:nth-child(2) {
+  width: 35%;
+}
+
+.from-control--email {
+  width: 100%;
+  font-family: $body-font;
+  background-color: $light-color;
+  padding: 1rem 1.25rem;
+  border: 1px solid #e6e8f0;
+  border-radius: 0.4rem;
+}
+
+.from-control--submit {
+  @extend .from-control--email;
+  height: 100%;
+  background-color: $primary-color;
+  color: $white;
+  cursor: pointer;
+}
+
+.newsletter__profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+
+  div:first-child {
+    margin-right: 0.625rem;
+  }
+}
+
+.profile__title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.125rem;
+}
+
+.profile__subtitle {
+  font-size: $small-font-size;
+  font-weight: 300;
+}
+
+.newsletter__quote {
+  margin: 0;
+  font-size: $small-font-size;
+  text-align: center;
+  line-height: $default-line-height;
+}
